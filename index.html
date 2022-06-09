@@ -9,13 +9,13 @@
 </head>
 
 <body style="">
-    <main style="background-color: pink; width: 60%;">
-        <div style="">
+    <main style="background-color: pink; width: 60%; margin-left: 20%; margin-top: 100px;">
+        <div style="display: inline-block; background-color: red; width: 50%; float: left">
             <h1 style="">404</h1>
-            <p style="">Page not found</p
+            <p style="">Page not found</p>
             <a style="" href="https://www.example.com">Go to home</a>
         </div>
-        <img style="" src="../ufo.jpg" alt="ufo lekste">
+        <img style="inline-block; width: 50%; float: right" src="../ufo.jpg" alt="ufo lekste">
     </main>
 </body>
 
@@ -40,5 +40,20 @@
     width: 100%
     border-top-style: solid;
 
-    
+    Elementu tarpusavio atsistumimas:
+    margin: 20px;       komentaras-visomis kryptimis
+    margin-top: 20 px; (kai nereikia atsistumineti visomis kryptimis)
+    margin-right: 20 px;
+    margin-bottom: 20 px;
+    margin-left: 20 px;
+
+    Elementu atvaizdavimo budas:
+    display: block; (dauguma apie 95% elementu turi)
+    display: none; (nematomas elementas)
+    display: inline; (nuoroda <a>) (vientisas. buna vienoje eileje su kitais elementais, o jei nebetelpa toliau atsivaizduoja sekancioje eileje)
+    display: inline-block (nuoroda <a>) (sujungia,leidzia buti ir kitiem elementams)    stengiasi buti vientisas gabalas vienoje eileje, o jei netelpa naujoje eileje-tai buna per visa ploti, o jkiti elementai buna apacioje.
+
+    priverstinis elementu stumdymas horizontaliai:
+    float-left;
+    float-right; 
 -->
